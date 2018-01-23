@@ -1,0 +1,6 @@
+<!--components/search/index.wxml-->
+<view class='container'>
+  <icon type='search' class='ic-search' size='14'></icon>
+  <view class='divider-vertical'></view>
+  <input type='text' class='input-content' placeholder='请输入商品名称'></input>
+</view>

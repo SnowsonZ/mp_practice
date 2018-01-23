@@ -1,0 +1,31 @@
+/* components/search/index.wxss */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ddd;
+    padding: 4rpx;
+    border-radius: 25rpx;
+    height: 50rpx;
+    width: 100%;
+}
+
+.ic-search {
+    margin-left: 20rpx;
+}
+
+.divider-vertical {
+    background-color: #999;
+    width: 1px;
+    height: 30rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    flex-grow: 0;
+}
+
+.input-content {
+    padding: 2rpx;
+    font-size: 12px;
+    flex-grow: 1;
+}
