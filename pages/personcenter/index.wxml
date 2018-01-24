@@ -1,0 +1,135 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='userinfo-container'>
+        <view class="userinfo">
+            <block>
+                <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+            </block>
+            <view class='userinfo-info'>
+                <text class='userinfo-info-nickname'>店铺VIP3用户</text>
+                <text class='userinfo-info-id'>64535454546sfsf</text>
+                <view class='userinfo-info-label'></view>
+            </view>
+            <text class='userinfo-manager'>账号管理</text>
+        </view>
+    </view>
+
+    <view class='order'>
+        <view class='order-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>待付款</text>
+        </view>
+        <view class='order-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>待收货</text>
+        </view>
+        <view class='order-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>待评价</text>
+        </view>
+        <view class='order-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>退换/售后</text>
+        </view>
+        <view class='order-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>全部订单</text>
+        </view>
+    </view>
+
+    <view class='order'>
+        <view class='order-item'>
+            <text class='account-num'>0</text>
+            <text>京东券</text>
+        </view>
+        <view class='order-item'>
+            <text class='account-num'>0</text>
+            <text>账户余额券</text>
+        </view>
+        <view class='order-item'>
+            <text class='account-num'>0</text>
+            <text>京豆</text>
+        </view>
+        <view class='order-item'>
+            <text class='account-num'>0</text>
+            <text>京东卡/E卡</text>
+        </view>
+    </view>
+
+    <view class='order'>
+        <view class='order-item'>
+            <text class='goods-history'>0</text>
+            <text>商品收藏</text>
+        </view>
+        <view class='order-item'>
+            <text class='goods-history'>0</text>
+            <text>店铺收藏</text>
+        </view>
+        <view class='order-item'>
+            <text class='goods-history'>0</text>
+            <text>搭配收藏</text>
+        </view>
+        <view class='order-item'>
+            <text class='goods-history'>--</text>
+            <text>我的足迹</text>
+        </view>
+    </view>
+
+    <view class='order'>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>我的尺码</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>我的爱车</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>我的家</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>评价奖励</text>
+        </view>
+    </view>
+
+    <view class='other'>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>京东回收</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>抽奖</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>试用</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>预约</text>
+        </view>
+    </view>
+
+    <view class='other'>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>免单</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>拼团</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>兴趣圈子</text>
+        </view>
+        <view class='other-item'>
+            <icon type='waiting' color='blue' size='20' class='order-item-icon'></icon>
+            <text>更多</text>
+        </view>
+    </view>
+
+</view>
